@@ -1,0 +1,44 @@
+parameters:
+  - name: Date
+    value: June 14 2019
+  - name: application.description
+    value: Demo of app in Dev01
+  - name: application.ecr.path
+    value: demosb
+  - name: application.ingress
+    value: demosb.app.v1.sol1.superhub.io
+  - name: application.name
+    value: demosb
+  - name: application.namespace
+    value: applications
+  - name: application.path
+    value: /
+  - name: application.replicas
+    value: '1'
+  - name: component.dex.okta.appId
+    value: 0oa35l95xgemwGYLs2p7
+  - name: component.dex.okta.clientId
+    value: 0oa35l95xgemwGYLs2p7
+  - name: component.dex.okta.issuer
+    value: 'https://agilestacks.okta.com'
+  - name: component.github.repository.name
+    value: DemoSB
+  - name: component.github.repository.organization
+    value: mameshini
+  - name: creator
+    value: MDelzer
+outputs:
+  - name: Date
+  - name: application.description
+  - name: application.ecr.path
+  - name: application.ingress
+  - name: application.name
+  - name: application.namespace
+  - name: application.path
+  - name: application.replicas
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
+  - name: creator
